@@ -17,7 +17,7 @@ Apresentar uma **pesquisa aprofundada** sobre **Turismo Rural, Agroturismo e Eco
 | **HTML5** | Estrutura semântica com tags `<header>`, `<main>`, `<section>`, `<nav>`, `<footer>` |
 | **CSS3** | Variáveis CSS, Grid, Flexbox, `position: sticky`, Media Queries, animações `@keyframes` |
 | **JavaScript (ES6+)** | IIFE, IntersectionObserver, `localStorage`, DOM API |
-| **Google Fonts** | Inter (corpo) + Poppins (títulos) |
+
 
 ## 📁 Estrutura
 
