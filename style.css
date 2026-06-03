@@ -774,8 +774,8 @@ body {
     }
 }
 
-/* LANG BUTTON */
-.lang-btn,
+/* LANG BUTTON (removido - tradução desabilitada) */
+
 .font-btn {
     background: rgba(255, 255, 255, 0.05);
     border: 1px solid var(--border);
@@ -792,7 +792,6 @@ body {
     justify-content: center;
 }
 
-.lang-btn[aria-pressed="true"],
 .font-btn[aria-pressed="true"] {
     background: var(--accent);
     color: white;
