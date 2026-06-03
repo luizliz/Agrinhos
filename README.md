@@ -1,6 +1,6 @@
 # 🌱 Agroturismo Ecológico
 
-Site desenvolvido para o **Concurso Agrinho 2026** — Subcategoria 3.
+Site desenvolvido para o **Concurso Agrinho 2026** 
 
 ## 🎯 Objetivo do tema
 
