@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agroturismo Ecológico - Pesquisa sobre Turismo Rural Sustentável">
+    <meta name="theme-color" content="#1a3c2c">
+    <title>Agroturismo Ecológico | Turismo Rural Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="preloader" aria-hidden="true">
+        <div class="preloader-content">
+            <div class="preloader-spinner"></div>
+            <p>Agroturismo Ecológico</p>
+        </div>
+    </div>
+
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#home" class="logo" aria-label="Agroturismo - Página inicial">Agro<span>Turismo</span></a>
+            <nav class="main-nav" role="navigation" aria-label="Menu principal">
+                <a href="#home" class="nav-link active" data-key="nav_home">Início</a>
+                <a href="#conceitos" class="nav-link" data-key="nav_concepts">Conceitos</a>
+                <a href="#motores" class="nav-link" data-key="nav_motors">Motores</a>
+                <a href="#beneficios" class="nav-link" data-key="nav_benefits">Benefícios</a>
+                <a href="#desafios" class="nav-link" data-key="nav_challenges">Desafios</a>
+                <a href="#tendencias" class="nav-link" data-key="nav_trends">Tendências</a>
+            </nav>
+            <div class="header-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Alternar modo escuro" aria-pressed="false" title="Modo escuro">🌙</button>
+                <button id="fontToggle" class="font-btn" aria-label="Aumentar tamanho da fonte" aria-pressed="false" title="Aumentar fonte">A↺</button>
+                <button id="contrastToggle" class="contrast-btn" aria-label="Alternar alto contraste" aria-pressed="false" title="Alto contraste">◐</button>
+                <button id="langToggle" class="lang-btn" aria-label="Alternar idioma" aria-pressed="false" title="Português / English">PT</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <span class="hero-tag" data-key="hero_tag">Pesquisa 2026</span>
+                <h1>Turismo Rural e<br><span class="highlight">Agroturismo Ecológico</span></h1>
+                <p data-key="hero_desc">Uma análise aprofundada para o desenvolvimento sustentável do campo, conciliando economia, preservação ambiental e bem-estar social.</p>
+                <div class="hero-buttons">
+                    <a href="#conceitos" class="btn-primary" data-key="hero_btn">Explorar pesquisa</a>
+                </div>
+            </div>
+            <div class="hero-scroll" role="button" tabindex="0" aria-label="Rolar para baixo">⌵</div>
+        </section>
+
+        <section id="conceitos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-key="conc_tag">Fundamentos</span>
+                    <h2 data-key="conc_title">Conceitos Integrados</h2>
+                    <p data-key="conc_sub">O Turismo Rural, Agroturismo e Ecoturismo formam o que chamamos de <strong>Turismo Rural Integrado (IRT)</strong></p>
+                </div>
+                <div class="conceitos-grid">
+                    <div class="conceito-card">
+                        <div class="card-icon" aria-hidden="true">🏞️</div>
+                        <h3 data-key="conc1_h">Turismo Rural</h3>
+                        <p data-key="conc1_p">Todas as atividades turísticas em espaço rural: estadias, gastronomia, eventos culturais e vivência campestre.</p>
+                    </div>
+                    <div class="conceito-card">
+                        <div class="card-icon" aria-hidden="true">🚜</div>
+                        <h3 data-key="conc2_h">Agroturismo</h3>
+                        <p data-key="conc2_p">Vivência ativa na propriedade agrícola. O visitante participa da rotina da fazenda, colheita e produção.</p>
+                    </div>
+                    <div class="conceito-card">
+                        <div class="card-icon" aria-hidden="true">🦜</div>
+                        <h3 data-key="conc3_h">Ecoturismo</h3>
+                        <p data-key="conc3_p">Foco na natureza e conservação ambiental, com educação e sustentabilidade em áreas protegidas.</p>
+                    </div>
+                </div>
+                <div class="conceito-destaque">
+                    <div class="destaque-inner">
+                        <span class="accent-text" data-key="conc_accent">✦ Agroturismo Ecológico</span>
+                        <p data-key="conc_destaque">Na interseção das três práticas: agricultura sustentável (biológica/agroecologia) + oferta turística que regenera ecossistemas e valoriza saberes locais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="motores" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-key="mot_tag">Por que este modelo?</span>
+                    <h2 data-key="mot_title">Motores da Integração</h2>
+                </div>
+                <div class="motores-slider">
+                    <div class="slider-container" id="motorSlider">
+                        <div class="slider-track" id="motorTrack">
+                            <div class="motor-slide"><span class="motor-num">01</span><h4 data-key="mot1_h">Procura de Mercado</h4><p data-key="mot1_p">Consumidores buscam autenticidade, saúde e contato com a natureza.</p></div>
+                            <div class="motor-slide"><span class="motor-num">02</span><h4 data-key="mot2_h">Necessidades Internas</h4><p data-key="mot2_p">Diversificação de renda e redução da dependência de culturas voláteis.</p></div>
+                            <div class="motor-slide"><span class="motor-num">03</span><h4 data-key="mot3_h">Recursos Endógenos</h4><p data-key="mot3_p">Paisagens, biodiversidade e patrimônio cultural como base da oferta.</p></div>
+                            <div class="motor-slide"><span class="motor-num">04</span><h4 data-key="mot4_h">Integração de Recursos</h4><p data-key="mot4_p">Combinação de produtos agrícolas com serviços de hospitalidade.</p></div>
+                            <div class="motor-slide"><span class="motor-num">05</span><h4 data-key="mot5_h">Suporte Técnico</h4><p data-key="mot5_p">Inovação tecnológica e práticas de gestão sustentável.</p></div>
+                            <div class="motor-slide"><span class="motor-num">06</span><h4 data-key="mot6_h">Nível Econômico</h4><p data-key="mot6_p">Infraestrutura e poder de compra da região anfitriã.</p></div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="slider-btn prev-motor" id="prevMotor" aria-label="Slide anterior">←</button>
+                        <div class="slider-dots" id="motorDots"></div>
+                        <button class="slider-btn next-motor" id="nextMotor" aria-label="Próximo slide">→</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-key="ben_tag">Impactos reais</span>
+                    <h2 data-key="ben_title">Benefícios Comprovados</h2>
+                    <p data-key="ben_sub">Além do Triple Bottom Line — economia, social e ambiental</p>
+                </div>
+                <div class="beneficios-grid">
+                    <div class="beneficio-card" data-axis="economico">
+                        <div class="beneficio-icon" aria-hidden="true">💰</div>
+                        <h3 data-key="ben1_h">Sustentabilidade Econômica</h3>
+                        <ul>
+                            <li data-key="ben1_l1">Diversificação da renda familiar</li>
+                            <li data-key="ben1_l2">Amortecedor contra quebras de safra</li>
+                            <li data-key="ben1_l3">Criação de empregos locais</li>
+                        </ul>
+                    </div>
+                    <div class="beneficio-card" data-axis="social">
+                        <div class="beneficio-icon" aria-hidden="true">👥</div>
+                        <h3 data-key="ben2_h">Sustentabilidade Social</h3>
+                        <ul>
+                            <li data-key="ben2_l1">Combate ao êxodo rural</li>
+                            <li data-key="ben2_l2">Fixação de jovens e mulheres</li>
+                            <li data-key="ben2_l3">Preservação de saberes ancestrais</li>
+                        </ul>
+                    </div>
+                    <div class="beneficio-card" data-axis="ambiental">
+                        <div class="beneficio-icon" aria-hidden="true">🌱</div>
+                        <h3 data-key="ben3_h">Sustentabilidade Ambiental</h3>
+                        <ul>
+                            <li data-key="ben3_l1">Conservação da biodiversidade</li>
+                            <li data-key="ben3_l2">Práticas regenerativas do solo</li>
+                            <li data-key="ben3_l3">Redução da pegada ecológica</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="beneficio-extra">
+                    <div class="stat-row">
+                        <div class="stat-item"><span class="stat-number" data-target="42">0</span><span class="stat-label" data-key="ben_stat1">% redução do êxodo</span></div>
+                        <div class="stat-item"><span class="stat-number" data-target="150">0</span><span class="stat-label" data-key="ben_stat2">comunidades ativas</span></div>
+                        <div class="stat-item"><span class="stat-number" data-target="30">0</span><span class="stat-label" data-key="ben_stat3">países com casos</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="desafios" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-key="des_tag">Barreiras</span>
+                    <h2 data-key="des_title">Desafios na Implementação</h2>
+                </div>
+                <div class="desafios-table">
+                    <div class="desafio-cat">
+                        <h3 data-key="des1_h">🏗️ Infraestrutura</h3>
+                        <p data-key="des1_p">Estradas rurais precárias, falta de internet de alta velocidade e saneamento básico deficiente.</p>
+                    </div>
+                    <div class="desafio-cat">
+                        <h3 data-key="des2_h">💰 Financeiro e Legal</h3>
+                        <p data-key="des2_p">Acesso limitado ao crédito, burocracia excessiva e falta de políticas públicas integradas.</p>
+                    </div>
+                    <div class="desafio-cat">
+                        <h3 data-key="des3_h">🏛️ Governança</h3>
+                        <p data-key="des3_p">Fragmentação institucional (agricultura vs. turismo vs. ambiente) e pouca participação comunitária.</p>
+                    </div>
+                    <div class="desafio-cat">
+                        <h3 data-key="des4_h">📚 Capacidade de Gestão</h3>
+                        <p data-key="des4_p">Falta de formação em hospitalidade, marketing digital e gestão de resíduos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tendencias" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag" data-key="ten_tag">Futuro</span>
+                    <h2 data-key="ten_title">Tendências e Inovação</h2>
+                </div>
+                <div class="tendencias-grid">
+                    <div class="tendencia-item"><span class="tendencia-icon" aria-hidden="true">🏡</span><h3 data-key="ten1_h">Aldeias Inteligentes</h3><p data-key="ten1_p">IoT e Big Data para gestão de recursos e experiência do visitante</p></div>
+                    <div class="tendencia-item"><span class="tendencia-icon" aria-hidden="true">📱</span><h3 data-key="ten2_h">Realidade Aumentada</h3><p data-key="ten2_p">Interpretação do patrimônio natural com tecnologia imersiva</p></div>
+                    <div class="tendencia-item"><span class="tendencia-icon" aria-hidden="true">🧘</span><h3 data-key="ten3_h">Turismo de Bem-Estar</h3><p data-key="ten3_p">Yoga, meditação e banhos de floresta em fazendas ecológicas</p></div>
+                    <div class="tendencia-item"><span class="tendencia-icon" aria-hidden="true">📊</span><h3 data-key="ten4_h">Monitoramento de Carbono</h3><p data-key="ten4_p">Ferramentas digitais para calcular e compensar a pegada ecológica</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p data-key="foot1">Projeto desenvolvido para o Concurso Agrinho 2026</p>
+                    <p>Aluno: <strong>Luiz Felipe</strong> · Colégio Estadual Padre Cláudio Morelli</p>
+                    <p>Orientação: <strong>Rafael Biano</strong></p>
+                </div>
+            </div>
+            <div class="footer-copy">© 2026 · Turismo Rural e Agroturismo Ecológico · Desenvolvimento Sustentável no Campo</div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
